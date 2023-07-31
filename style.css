@@ -1,0 +1,45 @@
+nav{
+    font-family: "Trebuchet MS";
+    font-size: large;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.options:hover{
+    background-color: gray;
+}
+
+.about_me{
+    font-family: "Trebuchet MS";
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.info{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: x-large;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    border: 5px groove black;
+}
+
+.pics{
+    display: flex;
+    float: right;
+    flex-direction: column;
+}
+
+@media(max-width: 1020px){
+    .pics{
+        display: flex;
+        flex-direction: row;
+    }
+}
